@@ -16,7 +16,7 @@ Alternatively, you can run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-The app will start running at <http://localhost:8080>.
+The app will start running at at port 8080 (Embedded Tomcat Server).
 
 
 **2. Connect to H2 Database**
@@ -30,7 +30,7 @@ Password : password
 ```
 ## Explore Rest APIs
 
-**Swagger UI has been configured to list all endpoints at URL http://localhost:8080/swagger-ui/**
+**Swagger UI has been configured to list all endpoints at URL http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#**
 
 The app defines following CRUD APIs.
 
